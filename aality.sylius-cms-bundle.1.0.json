@@ -1,20 +1,24 @@
 {
-    "manifests": {
-        "aality/sylius-cms-bundle": {
-            "manifest": {
-                "bundles": {
-                  "Aality\\SyliusCMSBundle": [
-                    "all"
-                  ]
-                },
-                "copy-from-package" : {
-                  "config/": "%CONFIG_DIR%/"
-                },
-                "composer-scripts": {
-                  "cache:clear": "symfony-cmd"
-                }
-            },
-          "ref" : "7405f3af1h12d1f91215fed4dddef636c6c7ff01"
-        }
+  "manifests": {
+    "aality/sylius-cms-bundle": {
+      "manifest": {
+        "bundles": {
+          "Aality\\SyliusCMSBundle\\SyliusCMSBundle": [
+            "all"
+          ]
+        },
+        "copy-from-package": {
+          "config/": "%CONFIG_DIR%/"
+        },
+        "composer-scripts": {
+          "cache:clear": "symfony-cmd"
+        },
+        "post": [
+          "echo 'Le bundle Aality\\SyliusCMSBundle a été installé avec succès.'",
+          "php bin/console cache:clear"
+        ]
+      },
+      "ref": "7405f3bf1h13d1f912115fed4dddef636c6c7ff01"
     }
+  }
 }
