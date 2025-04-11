@@ -2,7 +2,7 @@
     "recipes": {
         "aality/sylius-cms-bundle": [
             "1.0"
-        ],
+        ]
     },
     "recipe-conflicts": [],
     "versions": [],
