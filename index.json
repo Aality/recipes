@@ -1,0 +1,19 @@
+{
+    "recipes": {
+        "aality/sylius-cms-bundle": [
+            "1.0"
+        ],
+    },
+    "recipe-conflicts": [],
+    "versions": [],
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/Aality/recipes",
+        "origin_template": "{package}:{version}@github.com/Aality/recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/Aality/recipes/flex/main/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/Aality/recipes/flex/main/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+    }
+}
