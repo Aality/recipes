@@ -1,2 +1,0 @@
-aa_page_cms_bundle:
-  resource: "@AaPageCmsBundle/Resources/config/routes.yaml"
