@@ -1,0 +1,21 @@
+{
+    "manifests": {
+        "aality/sylius-cms-bundle": {
+            "manifest": {
+                "bundles": {
+                  "Aality\\SyliusCMSBundle": [
+                    "all"
+                  ]
+                },
+                "copy-from-package" : {
+                  "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                  "cache:clear": "symfony-cmd"
+                }
+            },
+          "ref" : "7405f3af1h12d1f91215fed4dddef636c6c7ff01"
+        },
+    
+    }
+}
