@@ -1,0 +1,32 @@
+{
+    "manifests": {
+        "aality/sylius-reassurance-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Aality\\ReassuranceBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "post-install-output": [
+                    "<bg=blue;fg=white>                   </>",
+                    "<bg=blue;fg=white> Congratulations ! </>",
+                    "<bg=blue;fg=white>                   </>",
+                    "",
+                    "  * <fg=green>Run</> your application:",
+                    "    1. If you use symfony/flex, you are done.",
+                    "    2. If not, follow instructions from README file",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://symfony.com/doc</>"
+                ]
+            },
+            "files": [],
+            "ref": "2d50ad0faebd0a921223f4ae1008ee1dd3305b41"
+        }
+    }
+}
