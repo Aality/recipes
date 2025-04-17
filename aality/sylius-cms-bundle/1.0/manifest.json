@@ -1,6 +1,6 @@
 {
   "bundles": {
-    "Aality\\SyliusCMSBundle": [
+    "Aality\\SyliusCMSBundle\\SyliusCMSBundle": [
       "all"
     ]
   },

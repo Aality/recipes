@@ -1,9 +1,3 @@
-<bg=blue;fg=white>                   </>
-<bg=blue;fg=white> Congratulations ! </>
-<bg=blue;fg=white>                   </>
-
-  * <fg=green>Run</> your application:
-    1. If you use symfony/flex, you are done.
-    2. If not, follow instructions from README file
-
-  * <fg=blue>Read</> the documentation at <comment>https://symfony.com/doc</>
+<bg=green;fg=white>                   </>
+<bg=green;fg=white> Congratulations ! </>
+<bg=green;fg=white>     @Aality       </>
