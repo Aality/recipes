@@ -1,15 +1,24 @@
 {
     "manifests": {
-        "aality/sylius-cms-bundle": {
+        "aality/sylius-reassurance-bundle": {
             "manifest": {
                 "bundles": {
-                    "Aality\\SyliusCMSBundle\\SyliusCMSBundle": [
+                    "Aality\\ReassuranceBundle\\ReassuranceBundle": [
                         "all"
                     ]
                 },
                 "copy-from-package": {
-                    "config/": "%CONFIG_DIR%/"
+                    "config/": "%CONFIG_DIR%/",
+                    "assets/": "assets/"
                 },
+                "add-lines": [
+                    {
+                        "file": "assets/shop/entrypoint.js",
+                        "content": "import './scss/vendor/aality-sylius-reassurance-bundle.scss';",
+                        "position": "top",
+                        "warn_if_missing": true
+                    }
+                ],
                 "composer-scripts": {
                     "cache:clear": "symfony-cmd"
                 },
@@ -21,7 +30,7 @@
                 ]
             },
             "files": [],
-            "ref": "715db5b69096f3c0ce2dd5c24535a580b3476099"
+            "ref": "a573dc94e86c44c9abf4c718885919d7a69c07ea"
         }
     }
 }

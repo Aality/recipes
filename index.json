@@ -2,10 +2,12 @@
     "aliases": [],
     "recipes": {
         "aality/sylius-cms-bundle": [
-            "1.0"
+            "1.0",
+            "1.1"
         ],
         "aality/sylius-reassurance-bundle": [
-            "1.0"
+            "1.0",
+            "1.1"
         ]
     },
     "recipe-conflicts": [],
