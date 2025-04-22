@@ -1,0 +1,13 @@
+{
+  "bundles": {
+    "Aality\\SyliusCMSBundle\\SyliusCMSBundle": [
+      "all"
+    ]
+  },
+  "copy-from-package" : {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "composer-scripts": {
+    "cache:clear": "symfony-cmd"
+  }
+}
