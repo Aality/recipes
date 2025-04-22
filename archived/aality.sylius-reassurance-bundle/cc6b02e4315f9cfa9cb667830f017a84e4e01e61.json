@@ -3,7 +3,7 @@
         "aality/sylius-reassurance-bundle": {
             "manifest": {
                 "bundles": {
-                    "Aality\\ReassuranceBundle\\ReassuranceBundle": [
+                    "Aality\\SyliusReassuranceBundle\\SyliusReassuranceBundle": [
                         "all"
                     ]
                 },
@@ -23,14 +23,13 @@
                     "cache:clear": "symfony-cmd"
                 },
                 "post-install-output": [
-                    "<bg=green;fg=white>                                  </>",
-                    "<bg=green;fg=white> Congratulations (F\u00e9licitations) !</>",
-                    "<bg=green;fg=white> Thank you for using our bundle   </>",
-                    "<bg=blue;fg=white>             @Aality               </>"
+                    "<bg=green;fg=white>                   </>",
+                    "<bg=green;fg=white> Congratulations ! </>",
+                    "<bg=green;fg=white>     @Aality       </>"
                 ]
             },
             "files": [],
-            "ref": "a573dc94e86c44c9abf4c718885919d7a69c07ea"
+            "ref": "cc6b02e4315f9cfa9cb667830f017a84e4e01e61"
         }
     }
 }

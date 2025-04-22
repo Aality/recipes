@@ -23,14 +23,13 @@
                     "cache:clear": "symfony-cmd"
                 },
                 "post-install-output": [
-                    "<bg=green;fg=white>                                  </>",
-                    "<bg=green;fg=white> Congratulations (F\u00e9licitations) !</>",
-                    "<bg=green;fg=white> Thank you for using our bundle   </>",
-                    "<bg=blue;fg=white>             @Aality               </>"
+                    "<bg=green;fg=white>                   </>",
+                    "<bg=green;fg=white> Congratulations ! </>",
+                    "<bg=green;fg=white>     @Aality       </>"
                 ]
             },
             "files": [],
-            "ref": "1c9eb9f4cfb00d91b4bcf980ec3d6bb4dc4d8d4a"
+            "ref": "cc6b02e4315f9cfa9cb667830f017a84e4e01e61"
         }
     }
 }
