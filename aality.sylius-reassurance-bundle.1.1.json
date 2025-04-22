@@ -3,7 +3,7 @@
         "aality/sylius-reassurance-bundle": {
             "manifest": {
                 "bundles": {
-                    "Aality\\ReassuranceBundle\\ReassuranceBundle": [
+                    "Aality\\SyliusReassuranceBundle\\SyliusReassuranceBundle": [
                         "all"
                     ]
                 },
@@ -30,7 +30,7 @@
                 ]
             },
             "files": [],
-            "ref": "a573dc94e86c44c9abf4c718885919d7a69c07ea"
+            "ref": "1c9eb9f4cfb00d91b4bcf980ec3d6bb4dc4d8d4a"
         }
     }
 }
