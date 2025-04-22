@@ -1,6 +1,6 @@
 {
   "bundles": {
-    "Aality\\ReassuranceBundle\\ReassuranceBundle": [
+    "Aality\\SyliusReassuranceBundle\\SyliusReassuranceBundle": [
       "all"
     ]
   },
