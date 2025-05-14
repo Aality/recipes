@@ -1,0 +1,4 @@
+<bg=green;fg=white>                                  </>
+<bg=green;fg=white> Congratulations (Félicitations) !</>
+<bg=green;fg=white> Thank you for using our bundle   </>
+<bg=blue;fg=white>             @Aality               </>

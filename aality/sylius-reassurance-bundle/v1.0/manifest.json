@@ -1,0 +1,22 @@
+{
+  "bundles": {
+    "Aality\\SyliusReassuranceBundle\\SyliusReassuranceBundle": [
+      "all"
+    ]
+  },
+  "copy-from-package" : {
+    "config/": "%CONFIG_DIR%/",
+    "assets/": "assets/"
+  },
+  "add-lines": [
+    {
+      "file": "assets/shop/entrypoint.js",
+      "content": "import './scss/vendor/aality-sylius-reassurance-bundle.scss';",
+      "position": "top",
+      "warn_if_missing": true
+    }
+  ],
+  "composer-scripts": {
+    "cache:clear": "symfony-cmd"
+  }
+}
