@@ -1,9 +1,9 @@
 {
     "manifests": {
-        "aality/sylius-reassurance-bundle": {
+        "aality/sylius-taxons-list-bundle": {
             "manifest": {
                 "bundles": {
-                    "Aality\\SyliusReassuranceBundle\\SyliusReassuranceBundle": [
+                    "Aality\\SyliusTaxonsListBundle\\SyliusTaxonsListBundle": [
                         "all"
                     ]
                 },
@@ -14,7 +14,7 @@
                 "add-lines": [
                     {
                         "file": "assets/shop/entrypoint.js",
-                        "content": "import './scss/vendor/aality-sylius-reassurance-bundle.scss';",
+                        "content": "import './scss/vendor/aality-sylius-taxons-list-bundle.scss';",
                         "position": "top",
                         "warn_if_missing": true
                     }
@@ -35,7 +35,7 @@
                 ]
             },
             "files": [],
-            "ref": "ca0b890c37abf00ec37c03bb496e9723dde8661d"
+            "ref": "1b22045faa9c9ff58df6b3a466695b9203f5c582"
         }
     }
 }
