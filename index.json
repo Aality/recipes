@@ -8,6 +8,9 @@
         "aality/sylius-reassurance-bundle": [
             "1.0"
         ],
+        "aality/sylius-slider-bundle": [
+            "1.0"
+        ],
         "aality/sylius-taxons-list-bundle": [
             "1.0"
         ]
