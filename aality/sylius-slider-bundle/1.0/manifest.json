@@ -14,6 +14,12 @@
       "content": "import './scss/vendor/aality-sylius-slider-bundle.scss';",
       "position": "top",
       "warn_if_missing": true
+    },
+    {
+      "file": "assets/shop/entrypoint.js",
+      "content": "import './js/vendor/aality-sylius-slider-bundle.js';",
+      "position": "top",
+      "warn_if_missing": true
     }
   ],
   "composer-scripts": {
