@@ -1,0 +1,32 @@
+{
+    "manifests": {
+        "aality/sylius-custom-contact-form-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Aality\\SyliusCustomContactFormBundle\\SyliusCustomContactFormBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-package": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "post-install-output": [
+                    "<bg=green;fg=white>                                    </>",
+                    "<bg=green;fg=white>         Congratulations !          </>",
+                    "<bg=green;fg=white>   Thank you for using our bundle   </>",
+                    "<bg=green;fg=white> Please read instructions in README </>",
+                    "",
+                    "<bg=blue;fg=white>             Visit our website at www.aality.fr              </>",
+                    "<bg=blue;fg=white> Need some help ? We are available on Sylius Community Slack </>",
+                    "<bg=blue;fg=white>     https://sylius-community.slack.com/team/U08H5A0PRRC     </>",
+                    "<bg=blue;fg=white>     https://sylius-community.slack.com/team/U07CWPRNZGU     </>"
+                ]
+            },
+            "files": [],
+            "ref": "e59069191aa9e7a6a23226c0b2bc59d6c90064ab"
+        }
+    }
+}
